@@ -1,0 +1,6 @@
+init.py: 494 comment out if statement
+config: switch device to cpu, epochs to 1
+train.py: comment out warmup, 54 include cuda to false, 93 cuda to cpu
+train.utils.py: 294 comment out cuda synchronization, 409 same
+storage.py: 94 cpu instead of cuda
+metric.py: 324 change np.float to np.float64

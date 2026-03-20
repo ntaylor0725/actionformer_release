@@ -1,0 +1,13 @@
+name: llmenv
+channels:
+  - defaults
+  - conda-forge
+dependencies:
+  - python=3.11
+  - scipy
+  - omegaconf
+  - pytest
+  - opencv
+  - tqdm
+  - h5py
+prefix: C:\Users\ntayl\miniconda3\envs\llmenv
